@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* Referencias tipográficas convertidas a px
+
+    Poppins Bold 50pt
+    → 66.65px
+    Color: #0a2ff1
+
+    Poppins Regular & Bold 22pt
+    → 29.33px
+    Color: #0a2ff1
+
+    Poppins Regular & Bold 55pt
+    → 73.32px
+    Color: #0a2ff1
+
+    Poppins Regular 22pt
+    → 29.33px
+    Fondo: #8a9af1 */
+body { margin:0;}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0a2ff1;
+  font-size: 65.65px;
+}
+
+p {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #eff2ff;
+  color: #0a2ff1;
+  font-size: 29.33px;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #8a9af1;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 29.33px;
+  font-weight: 400;
+}
+
+img {
+  width: 30%;
+}
+footer {
+  width: 100%;
+  background-color: #3ffff3;
+  height: 10px;
+}
