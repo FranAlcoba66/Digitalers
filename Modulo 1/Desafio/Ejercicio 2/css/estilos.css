@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+/*
+Montserrat Black	50 pt	67 px 23 novimbre
+Montserrat Black	148 pt	197 px BLACK
+Montserrat Black	163 pt	217 px FRIDAY
+Montserrat Semibold	36 pt	48 px  HASTA
+Montserrat Black	45 pt	60 px DESCUENTOS......
+Montserrat Semibold	44 pt	59 px  NO te lo pierdas
+ */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+strong,
+b {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 197px;
+  margin: 0px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  font-size: 217px;
+  height: 705px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  font-size: 67px;
+  margin: 0px;
+  height: 250px;
+}
+
+p {
+  background-color: black;
+  color: white;
+  font-size: 59px;
+  font-weight: 600;
+  margin: 0px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.semi-bold-1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.semi-bold-2 {
+  font-size: 59px;
+}

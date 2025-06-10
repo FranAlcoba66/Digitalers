@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap");
+
+/* Reset & base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1659px;
+  width: 100%;
+  padding: 0px 142px;
+}
+
+/* Tipografía */
+h1,
+h2,
+h3,
+strong,
+span {
+  margin: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h1 strong {
+  font-family: "Coiny", cursive;
+  font-size: 117.33px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 26.66px;
+  font-weight: 900;
+  background-color: #fcee21;
+  display: inline;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #7a7a7a;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+nav ul {
+  width: 50%;
+}
+nav li {
+  display: flex;
+  justify-content: space-around;
+}
+nav h1 {
+  display: flex;
+  justify-content: start;
+  font-size: 38px;
+}
+section {
+  width: 49%;
+  padding: 20px;
+  display: inline-block;
+  padding: 60px 0px;
+}
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  height: 103px;
+  font-size: 26.66px;
+  background-color: #fcee21;
+}
+
+footer a {
+  margin-left: 20px;
+  color: #7a7a7a;
+  text-decoration: none;
+}
+
+/* Aside */
+aside {
+  color: #808080;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  font-size: 2em;
+  font-weight: 400;
+  list-style-position: outside;
+}
+
+/* Utilidades */
+.coiny {
+  font-family: "Coiny", cursive;
+}
+
+.yellow {
+  background-color: #fcee21;
+  display: inline;
+}
+
+/* Imágenes */
+img {
+  width: 117px;
+  height: 106px;
+}
+
+#imagen-servicios {
+  width: 552px;
+  height: 537px;
+}
+
+#imagen-wapas {
+  width: 690px;
+  height: 590px;
+}
+#formulario-contacto {
+  width: 574px;
+  height: 173px;
+}
+#servicios {
+  display: flex;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+/* Formularios */
+form {
+  align-items: self-start;
+  width: 535px;
+}
+
+.item {
+  display: inline-block;
+  background-color: #fcee21;
+  font-weight: 700;
+  font-size: 30px;
+}
+/* Botones */
+.btn-black {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: auto;
+}
