@@ -4,42 +4,47 @@ body {
   background-color: #edf7ff;
 }
 
-h1 ,h3, h4{
- font-family: 'MuseoModerno',cursive;
+h1 {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 700;
+  color: #0a2ff1;
+  font-size: 117px;
+  margin-bottom: -45px;
 }
 
-h2 , ul ,p {
-  font-family: 'Asap', sans-serif;
-  font-weight: regular;
+h2 {
+  font-family: "Asap", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  color: #0a2ff1;
+  margin-top: 0px;
+  padding: 0px;
 }
 
-h1{
-    font-size: 117px;
-    color: #0a2ff1;
+p {
+  font-family: "Asap", sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  color: #04146c;
 }
 
-h2{
-    font-size: 52px;
-    color: #0a2ff1;
+h3 {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 700;
+  color: #0a2ff1;
+  font-size: 48px;
 }
 
-h3{
-    font-size: 	48px;
-    color: #0a2ff1;
+li {
+  font-family: "Asap", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  color: #04146c;
 }
 
-h4{
-    font-size: 	198px;
-    color: #8a9af1;
-}
-
-p{
-    font-size: 33px;
-    color:#04146c;
-}
-
-ul{
-    font-size: 33px;
-    color:#04146c;
-    font-weight: bold;
+h4 {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 700;
+  font-size: 199px;
+  color: #8a9af1;
 }
