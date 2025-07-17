@@ -1,0 +1,67 @@
+/* Importar fuentes desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400&display=swap");
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #04146c;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+/* Título principal */
+h1 {
+  font-family: "Coolvetica regular", sans-serif;
+  font-size: 120px;
+  color: #0a2ff1;
+  margin-bottom: 30px;
+}
+
+/* Párrafo introductorio */
+p {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+/* Botón principal */
+.button-primary {
+  background-color: #0a2ff1;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #073bd1;
+}
+
+/* Botón secundario */
+.button-secondary {
+  font-size: 40px;
+  color: #04146c;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border: 2px solid #04146c;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #04146c;
+  color: #ffffff;
+}
