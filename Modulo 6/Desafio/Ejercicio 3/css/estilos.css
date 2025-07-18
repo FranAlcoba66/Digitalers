@@ -1,0 +1,77 @@
+/* Import de Roboto desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+/* Fuente Coolvetica local */
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/fonts/Coolvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  padding: 0;
+  max-width: 1500px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  background-color: aliceblue;
+}
+
+/* Clases tipográficas */
+
+/* Título principal (Coolvetica 90pt → 120px) */
+.title-coolvetica {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 120px;
+  /* font-weight: normal; */
+  color: #0a2ff1;
+}
+
+/* Subtítulo Roboto Light 30pt → 40px */
+.subtitle-roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #04146c;
+}
+
+/* Subtítulo en negrita Roboto Bold 30pt → 40px */
+.subtitle-roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #04146c;
+}
+
+/* Firma (italic) Roboto Light Italic 18pt → 24px */
+.user-signature {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #04146c;
+}
+
+/* Título de reseña Roboto Black 18pt → 24px */
+.review-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #04146c;
+}
+
+/* Cuerpo de reseña Roboto Regular 18pt → 24px */
+.review-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #04146c;
+}
